@@ -1,0 +1,22 @@
+
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1cm; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+ul{
+  list-style: none;
+  padding: 0;
+}
+ul li{
+  font-size: 20px;
+  padding-right: 20px;
+}
+ul li::before{
+  content: '\f101';
+ font-family: 'Font Awesome 5 free';
+ font-weight: 800;
+
+  
+}
