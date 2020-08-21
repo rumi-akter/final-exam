@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="font/css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -10,9 +12,10 @@
 </head>
 <body>
    <!--Navigation-->  
-   <nav class="navbar navbar-dark navbar-expand-md">
+<div class="header">
+    <nav class="navbar navbar-dark text-dark navbar-expand-md">
         <div class="container">
-            <a class="navbar-brand" href="#">Bootstrap</a>
+            <a class="navbar-brand" href="#"><H2>Bootstrap</H2></a>
             <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navb">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -37,80 +40,51 @@
             </div>
         </div>
     </nav>
+</div>
+     
 
-    <section class="top">
-        <div class="container">
-            <div class="row justify-content-beteween">
-                <div class="col-md-6">
-                    <div class="div d-flex">
-                        <span>ENGLISH <i class="fa fa-chevron-down"></i></span>
-                        <span>US DOLLAR <i class="fa fa-chevron-down"></i></span>
-                        <ul class="d-flex">
-                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fa fa-google"></i></a></li>
-                            <li><a href=""><i class="fa fa-youtube"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 text-right">
-                    <div class="icon d-flex justify-content-end">
-                        <ul class="d-flex">
-                            <li> <i class="fa fa-globe"></i> </li>
-                            <li> <i class="fa fa-heart"></i></li>
-                            <li><i class="fa fa-user"></i></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-  <!-- Navbar-Here -->
-  <nav class="navbar navbar-dark text-light navbar-expand-md mt-4">
-    <div class="container">
-        <a href="#home-section" class="navbar-brand text-light"><h1><span class="nav1">Port</span><span class="nav2">Rayal</span></h1></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNab">
-            <span><i class="fa fa-bars text-light" style="font-size: 25px;"></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNab">
-            <form class="form-inline ml-auto d-flex" >
-                <input class="form-control" type="text" placeholder="search">
-                <button class="btn btn-success">search</button>
-            </form>  
-        </div>
-    </div>
-</nav>
-
-<div class="main-section py-5">
+<div class="gallary-section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
-               <div class="slide">
-                <h2>Categories</h2>
-                <ul>
-                    <li>Language</li>
-                    <li>Drawing</li>
-                    <li>Pricing</li>
-                    <li>New Media</li>
-                    <li>Art</li>
-                    <li>Photoshope</li>
-                    <li>Decorative-Art</li>
-                </ul>
-                <h2>Special</h2>
-               </div>
+            <div class="col-md-4"> 
+                <div class="img-box">
+                    <img src="img/g.jpg" alt="" class="img-fluid"> 
+                    <div class="img-content">
+                        <div>
+                            <h2>Shamim Parvez</h2>
+                            <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quo?</p>
+                            <a href="">Jannat</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4"> 
+                <div class="img-box">
+                    <img src="img/m.jpg" alt="" class="img-fluid"> 
+                    <div class="img-content">
+                        <div>
+                            <h2>Shamim Parvez</h2>
+                            <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quo?</p>
+                            <a href="">Jannat</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4"> 
+                <div class="img-box">
+                    <img src="img/wood.jpg" alt="" class="img-fluid"> 
+                    <div class="img-content">
+                        <div>
+                            <h2>Shamim Parvez</h2>
+                            <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quo?</p>
+                            <a href="">Jannat</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>       
-
-<div class="container">
-    <div class="row">
-        <div class="col-lg-3"> <img src="img/a.jpg" alt="" class="img-fluid"> </div>
-        <div class="col-lg-3"> <img src="img/b.jpg" alt="" class="img-fluid"> </div>
-    </div>
 </div>
-
 
 
 
